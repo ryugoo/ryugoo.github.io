@@ -1,0 +1,7 @@
+.bundle
+vendor
+vendor/bundle
+_drafts
+_site
+_includes
+Gemfile.lock

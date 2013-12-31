@@ -1,0 +1,20 @@
+---
+layout: default
+title: imthinker::net
+top: true
+---
+
+<div id="home" class="index">
+  <h2>Posts</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date: "%Y.%m.%d" }}</span>&emsp;&raquo;&emsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h2>Olds</h2>
+  <ul class="posts">
+    <li><span>2013.12.xx</span>&emsp;&raquo;&emsp;<a href="http://blog.imthinker.net/">imthinker.net (はてなブログ)</a></li>
+    <li><span>2012.12.xx</span>&emsp;&raquo;&emsp;<a href="http://old.imthinker.net/">imthinker.net (WordPress {StaticPress & S3})</a></li>
+  </ul>
+</div>
