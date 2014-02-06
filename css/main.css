@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+/*html, body { height: 100%; }*/
 
 body {
   background-color: #FFF;
@@ -203,11 +203,15 @@ hr {
 
 /* Social
 ----------------------------------------------------------------------------- */
-.social { margin-top: 2em; }
+.social {
+  margin-top: 2em;
+  line-height: 1.0;
+}
 
 .social ul { list-style: none; }
 
 .social ul li {
   display: inline-block;
   margin-right: .75em;
+  vertical-align: top;
 }
