@@ -138,6 +138,8 @@ hr {
   margin-bottom: 1em;
 }
 
+.post h4 { font-size: 108%; }
+
 .post h1 + ul, .post h1 + ol,
 .post h2 + ul, .post h2 + ol,
 .post h3 + ul, .post h3 + ol,
