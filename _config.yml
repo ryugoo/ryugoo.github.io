@@ -2,7 +2,8 @@ name: imthinker::net
 description: "Yet another Ryutaro Miyashita"
 url: "http://imthinker.net"
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 safe: true
 lsi: false
+layout: null
 exclude: ["vendor", "Gemfile", "Gemfile.lock"]
