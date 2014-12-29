@@ -3,6 +3,7 @@ layout: post
 title: "2014 年に買って良かった物"
 date: 2014-12-30
 categories: poem
+ogp: "/image/valente.jpg"
 ---
 
 2014 年に買って良かった物を数点紹介したいと思います。
